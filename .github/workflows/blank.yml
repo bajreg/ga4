@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Modify file - 23f1001877@ds.study.iitm.ac.in
+      #- name: Modify file - 23f1001877@ds.study.iitm.ac.in
         run: |
           echo "Last run: $(date -u)" > daily-log.txt
 
