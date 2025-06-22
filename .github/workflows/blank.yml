@@ -14,7 +14,7 @@ on:
 
   schedule:
     - cron: '17 3 * * *'  # Runs daily at 03:17 UTC
-  workflow_dispatch:       # (Optional) Allows manual triggering
+  
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
